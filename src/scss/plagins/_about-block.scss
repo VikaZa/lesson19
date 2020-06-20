@@ -1,0 +1,42 @@
+.about {
+  height: 50vh;
+  min-height: 420px;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  h4 {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    color: $black;
+    font-size: 18px;
+    padding:0 30px 55px 30px ;
+  }
+  p{
+    font-family: Raleway, sans-serif;
+    color: $black;
+    font-size:16px;
+	padding:0 30px 55px 30px ;
+  }
+  .hire_me{
+    display:flex;
+	
+  }
+  .hire_me_button{
+    text-align:center;
+    margin-left:30px;
+	width:150px;
+    height:50px;
+    background:rgba(103, 0, 31, .8);
+  }
+  .hire_me_button p{
+    padding-top:15px;
+
+  }
+  .hire_me_button p a{
+    color:$white;
+  }
+}

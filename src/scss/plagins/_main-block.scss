@@ -1,0 +1,30 @@
+.main {
+  background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(https://html5book.ru/wp-content/uploads/2016/12/photo-8.jpg); 
+  background-size: cover;
+  height: 100vh;
+  min-height: 420px;
+
+  .container {
+    display: flex;
+	flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  h1 {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    color: $white;
+    font-size: 65px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border-top:solid 2px rgba(255,255,255,.75);
+    border-bottom:solid 2px rgba(255,255,255,.75);
+  }
+  p{
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    color: $white;
+    font-size: 30px;
+  }
+}
